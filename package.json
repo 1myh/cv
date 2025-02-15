@@ -1,12 +1,14 @@
 {
-  "name": "cv2.0",
+  "homepage": "https://1myh.github.io/cv",
+  "name": "cv",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "build": "next build",
+    "lint": "next lint",
+    "dev": "next dev --turbopack",
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "jotai": "^2.11.2",
